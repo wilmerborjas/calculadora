@@ -10,13 +10,18 @@ public class Calculadora {
 		return numeroA - numeroB;
 	}
 
-	public String multiplicar(int numeroA, int numeroB) {
-		int resultado = numeroA * numeroB;
+	public int multiplicar(int numeroA, int numeroB) {
+		return numeroA * numeroB;
+	}
 
-		resultado = resultado + numeroA;
-		String mensaje = "multiplicar = " + resultado;
+	public double descontar10PorCiento(double numeroA, double numeroB) {
+		double resultado = numeroA * numeroB;
 
-		return mensaje;
+		double porcentaje = resultado * 0.1;
+
+		resultado = resultado - porcentaje;
+
+		return resultado;
 	}
 
 }

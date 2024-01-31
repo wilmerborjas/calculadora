@@ -39,7 +39,11 @@ public class CalculadoraApp {
 
 		System.out.println("restar = " + calculadora.restar(10, 4));
 
-		System.out.println(calculadora.multiplicar(3, 2));
+		System.out.println("multiplicar = " + calculadora.multiplicar(5, 10));
+
+		System.out.println("resultado descuento = " + calculadora.descontar10PorCiento(85, 95));
+		
+		System.out.println("total factura = " + calculadora.sumar(255, 110));
 
 	}
 
